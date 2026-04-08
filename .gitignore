@@ -1,16 +1,22 @@
-# Node rules:
-## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+# OS files
+.DS_Store
+Thumbs.db
 
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
-node_modules
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
 
-# Book build output
-_book
+# Power BI temporary files
+*.pbix.autosave
 
-# eBook build output
-*.epub
-*.mobi
-*.pdf
+# Logs
+*.log
+
+# Python (por si en el futuro lo usas)
+__pycache__/
+*.pyc
+
+# VS Code / IDE
+.vscode/
+.idea/
